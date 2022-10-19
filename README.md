@@ -4,47 +4,27 @@ Aqui você vai encontrar os arquivos do trabalho final da turma do MaisPraTi JAV
 
 ## Sobre o Projeto
 
-Baixe agora o workbook do evento. Aqui tem todas informações sobre como vai funcionar o evento, links, materiais extras, passo a passo:
+Trata-se de uma aplicação CRUD (Create, Read, Update, Delete) implementada em Java no terminal. 
+Deve ter as seguintes funcionalidades:
 
-https://drive.google.com/file/d/1rnf8sAegeR7OXfaloqVReQxPnS52uL_l
+- Criar Pessoa ou Aluno;
+- Mostrar todas as Pessoas e Alunos criados (listar na tela);
+- Atualizar dados de uma pessoa ou aluno;
+- Deletar uma pessoa ou aluno;
+- Encerrar o programa.
 
-## Guias de instalação das ferramentas
+As informações em comum de Pessoa/Aluno devem ser:
 
-[Guia de instalação das ferramentas no Windows](https://github.com/devsuperior/sds1/tree/master/ferramentas/windows)
+- Nome;
+- Telefone;
+- Data de cadastro da pessoa;
+- Data da última alteração;
 
-[Guia de instalação das ferramentas no Linux](https://github.com/devsuperior/sds1/tree/master/ferramentas/linux)
+Caso o usuário informe a nota final do curso , deve ser criado um aluno. Caso essa nota não seja informada, deve ser criada uma pessoa.
+Um menu interativo deve ser criado para executar as opções acima. Esse menu deverá ser exibido até o encerramento da aplicação.
+Herança deverá ser usada para que Aluno utilize os tipos de dados de Pessoa.
+Todas as informações ficam em memória, não sendo necessário o uso de bancos de dados.
+Não deverá ser utilizado nenhum framework específico, mas apenas recursos de Java nativo.
 
-[Guia de instalação das ferramentas no Mac](https://github.com/devsuperior/sds1/tree/master/ferramentas/mac)
-
-## Conteúdos de apoio das videoaulas
-
-[Conteúdos para videoaula 1](https://github.com/devsuperior/sds1/tree/master/videoaula1)
-
-[Conteúdos para videoaula 2](https://github.com/devsuperior/sds1/tree/master/videoaula2)
-
-[Conteúdos para videoaula 3](https://github.com/devsuperior/sds1/tree/master/videoaula3)
-
-## Vídeos adicionais
-
-### Análise do app
-
-Este vídeo é necessário para entender:
-- Visão geral do app
-- Identificação dos casos de uso
-- Construção do modelo conceitual 
-
-[![Image](https://img.youtube.com/vi/PfYifUFmXk8/mqdefault.jpg "Vídeo no Youtube")](https://youtu.be/PfYifUFmXk8)
-
-### High order functions JavaScript e TypeScript
-
-Estes vídeos são necessários para entender:
-- Funções de alta ordem: map, filter, reduce, sort
-- Como essas funções foram aplicadas para transformar os dados a API nos dados necessários para plotar os gráficos
-
-#### Parte 1:
-[![Image](https://img.youtube.com/vi/ZYPQmfcZGxg/mqdefault.jpg "Vídeo no Youtube")](https://youtu.be/ZYPQmfcZGxg)
-
-#### Parte 2:
-[![Image](https://img.youtube.com/vi/IL9UfTcCXL4/mqdefault.jpg "Vídeo no Youtube")](https://youtu.be/IL9UfTcCXL4)
 
 
